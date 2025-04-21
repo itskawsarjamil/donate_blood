@@ -2,7 +2,7 @@
 <p align="center">WebApplication Requirements (High level)</p>
 
 <u> **DONATE BLOOD** </u> is a robust and comprehensive donation management system designed
-to streamline communication and appointment processes between patients, donars,
+to streamline communication and appointment processes between recipients, donars,
 and administrators. The system incorporates cutting-edge technologies such as
 NodeJS, Express, Prisma, WEB RTC (via Agora.io), and PostgreSQL for efficient and
 secure data management.
@@ -19,7 +19,7 @@ secure data management.
 ## 1. Technologies
 
 - **NodeJS and Express**: Used for server-side application development.
-- **WEBRTC (Agora.io)**: Third-party service for real-time communication between donars and patients.
+- **WEBRTC (Agora.io)**: Third-party service for real-time communication between donars and recipients.
 - **Prisma**: ORM (Object-Relational Mapping) tool for database management.
 - **PostgreSQL**: Database management system.
 <!-- - **Next.js**: A React framework for building applications. -->
@@ -55,21 +55,21 @@ secure data management.
 - Set appointment slots.
 - Take appointments.
 
-#### Patient Profile
+#### recipient Profile
 
-- Access patient profiles and medical history.
-- View uploaded diagnostic test reports of patients.
+- Access recipient profiles and medical history.
+- View uploaded diagnostic test reports of recipients.
 - View previous prescriptions (if any).
 
 <!-- #### Prescription Management
 
-- Generate prescriptions for patients during and after consultations.
-- Send prescriptions to patients through email via the system.
+- Generate prescriptions for recipients during and after consultations.
+- Send prescriptions to recipients through email via the system.
 - Attach additional medical notes and instructions to prescriptions. -->
 
 ---
 
-### 2.3 Patient
+### 2.3 recipient
 
 #### Account Management
 
@@ -112,7 +112,7 @@ secure data management.
 - Real-time communication through WebRTC.
 - Secure user authentication and authorization.
 - Seamless appointment scheduling and management.
-- Comprehensive patient profiles and medical records.
+- Comprehensive recipient profiles and medical records.
 - Integrated secure payment system for transport or something.
 - Donars can generate detailed feedback during and after donation.
 - Automated email notifications for:
