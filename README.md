@@ -120,7 +120,7 @@ secure data management.
 
 ---
 
-## 4. Single-Page Application (SSR)
+## 4. Single-Page Application (SPA)
 
 - **Landing Page**: Provides information about the DONATE BLOOD system.
 - **Donar Profile**: Displays detailed information about donars.
